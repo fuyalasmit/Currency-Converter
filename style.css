@@ -21,9 +21,11 @@ body {
     width: 23vw;
 }
 
-h2{
+
+h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
+    font-size: 27px;
     margin-bottom: 5px;
     display: flex;
     justify-content: center;
@@ -47,24 +49,25 @@ input {
     border-radius: 0.75rem;
 }
 
-form input{
+form input {
     border: 1px solid #ffafcc;
     font-size: 1rem;
     height: 2rem;
     padding-left: 0.5rem;
 }
 
-.dropdown{
+.dropdown {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem;
+    margin: 1rem 0;
 }
 
-.selectContainer img{
+.selectContainer img {
     max-width: 2rem;
 }
-.selectContainer{
+
+.selectContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,20 +79,20 @@ form input{
 
 }
 
-svg{
+svg {
     margin-top: 1rem;
 }
 
-.selectContainer select{
+.selectContainer select {
     font-size: 0.9rem;
     background-color: #ffc8dd;
 }
 
-.msg{
-    margin: 2rem 0 ;
+.msg {
+    margin: 2rem 0;
 }
 
-form button{
+form button {
     height: 2rem;
     /* color: #014f79;
     color: #030572; */
@@ -97,4 +100,48 @@ form button{
     color: whitesmoke;
     font-size: 0.9rem;
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 865px) {
+    .container {
+        /* max-height: 50vh; */
+        width: 60vw;
+    }
+
+    * {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    p {
+        font-size: 0.95rem;
+    }
+
+    .selectContainer img {
+        max-width: 2rem;
+
+    }
+
+    .selectContainer {
+        align-items: center;
+        column-gap: 1px;
+        width: 5.3rem;
+    }
+
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    form button {
+        font-size: 1rem;
+        height: 2.3rem;
+        padding-left: 0.5rem;
+    }
+
 }
