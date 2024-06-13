@@ -1,4 +1,4 @@
-const BASE_URL = "https://v6.exchangerate-api.com/v6/b2296cfbeb55459b94a6ddd8/latest/";
+const BASE_URL = "https://v6.exchangerate-api.com/v6/8160896acdbc8e2199e280f8/latest/";
 
 const dropdowns = document.querySelectorAll(".dropdown select");
 const btn = document.querySelector("form button");
