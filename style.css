@@ -30,10 +30,10 @@ h2 {
     margin-bottom: 5px;
     display: flex;
     justify-content: center;
-    text-decoration: underline;
+    /* text-decoration: underline;
     text-decoration-thickness: 3px;
     text-decoration-style: wavy;
-    text-decoration-color: #fe9dc1;
+    text-decoration-color: #fe9dc1; */
 }
 
 
